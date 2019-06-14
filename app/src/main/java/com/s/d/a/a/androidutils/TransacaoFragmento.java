@@ -7,7 +7,7 @@ import android.util.Log;
 import android.view.View;
 import android.widget.ProgressBar;
 
-public abstract class TransacaoFragmento extends AsyncTask<Void, Void, Boolean> {
+public class TransacaoFragmento extends AsyncTask<Void, Void, Boolean> {
     private static final String TAG = "androidutils";
     private final Context context;
     private final Fragment fragment;
